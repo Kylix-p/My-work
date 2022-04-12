@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1 class="head">My Weather App</h1>
+        <div class="centre">
+            <div>
+                <form autocomplete="on">
+                    <!-- <label>Enter your city</label><br> -->
+                    <input type="text" type="reset" placeholder="Search your City" id="city">
+                    <button type="reset" class="btn">Search</button>
+                    <br>
+                    <span class="msg"></span>
+                    <br>
+                </form>
+            </div>
+
+            <div class="container current">
+
+            </div>
+        </div>
+
+        <div class="list">
+            <h4 class="recent">Recent Searches .... </h4>
+            <ul class='city row'></ul>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
