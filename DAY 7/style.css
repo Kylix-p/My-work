@@ -1,0 +1,77 @@
+body {
+    text-align: center;
+    background-color: #a9d7e9;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.master-div-style {
+    margin: auto;
+    width: 800px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+}
+
+.fields {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.input-fields {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 15px 10px 10px 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 4px;
+}
+
+.radio {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.user-selection {
+    float: left;
+    margin-right: 5px;
+}
+
+.button {
+    font-size: 1em;
+    background-color: #6ba2ce;
+    color: white;
+    border: 0px solid;
+    border-radius: 4px;
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}

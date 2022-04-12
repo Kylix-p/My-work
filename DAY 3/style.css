@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  background-image: url("img/2.jpg");
+  background-size: cover;
+}
+#title{
+    color: darkslateblue;
+    font-size: 20px;
+    font-weight: 900;
+}
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 1.125rem;
+}
+
+h1,label {
+  align-items: center;
+  font-size: 1.125rem;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+}
+
+.container {
+  width: 100%;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.clue {
+  font-size: 0.9rem;
+  color: #e4e4e4;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* form */
+
+form {
+  background: var(--color-darkblue-alpha);
+  border-radius: 0.25rem;
+}
+
+.form-control {
+  width: 100%;
+  height: 2.375rem;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.form-control:focus {
+  border-color: #80bdff;
+}
+
+.input-textarea {
+  width: 0%;
+}
+
+.submit-button {
+  width: 100%;
+  background: #37af65;
+  color: inherit;
+  border-radius: 2px;
+}

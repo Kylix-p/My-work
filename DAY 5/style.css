@@ -1,0 +1,66 @@
+body{
+    background-color: deepskyblue;
+}
+p span {
+    font-family: 'Pacifico', cursive;
+}
+#text {
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    font-size: 25px;
+}
+#main-content {
+    background-color: rgb(202, 41, 207);
+    font-family: 'Dosis' , sans-serif;
+    border: 2px solid blue;
+}
+#nutshell {
+    font-family: 'Lato' , sans-serif;
+    font-weight:bold;
+    font-size: 26px;
+}
+#quote {
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+    font-size: 24px;
+}
+.event-date{
+    font-family: 'Pacifico', cursive;
+}
+.event-date-event-date-first-child{
+    font-family: 'Pacifico', cursive;
+}
+.subsection-header{
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+.event-desc-event-desc-nth-child{
+font-family: 'Comfortaa', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+#text{
+font-family: 'Comfortaa', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Ubuntu', sans-serif;
+}
+table,th,td{
+    border:1px solid rgb(216, 23, 190);
+}
+th{
+    color: rgb(111, 22, 163);
+    font-family: 'Courgette', cursive;
+}
+td{
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    text-align: center; 
+}
+h2{
+    text-align: center;
+}
